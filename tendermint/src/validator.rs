@@ -189,7 +189,8 @@ impl Info {
             pub_key: pk,
             power: vp,
             name: None,
-            proposer_priority: ProposerPriority::default(),
+
+            proposer_priority: ProposerPriority::from(1),
         }
     }
 }
